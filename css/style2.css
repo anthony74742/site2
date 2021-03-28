@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Train+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=New+Tegomin&display=swap);
+
+* {
+    font-family: 'Train One';
+}
+
+body {
+    margin: 0 auto;
+    }
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 100px;
+}
+
+section.top-page {
+    background: url('../image/tank2.png');
+    background-size: cover;
+    height: 90vh;
+    padding: 15px;
+}
+
+.nom {
+    color: white;
+    text-decoration: none;
+}
+
+/* page de bienvenue (landing page)*/
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size: 60px;
+    font-family: Anton;
+    font-weight: 100;
+    animation: bounceIn;
+    animation-duration: 2s;
+}
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px  ;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    margin-left: 100px
+    
+}
+nav.nav li {
+    text-decoration-color: white;
+    display: flex;
+}
+
+
+
